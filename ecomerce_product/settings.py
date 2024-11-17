@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ecomerce_product',
     'category',
+    'home',
+    'subcat',
 ]
 
 MIDDLEWARE = [
