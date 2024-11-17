@@ -16,7 +16,7 @@ def homePage(req):
             print(f" Subcategory: {subcat.Name}")
 
 
-    data={'cats_subcat':all_data_subcat}
+    data={'cats_subcat':categories}
     return render(req,'home/home.html',data)
 
 
