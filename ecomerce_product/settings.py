@@ -18,6 +18,8 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 temp_dir=os.path.join(BASE_DIR,'template')
 static_dir=os.path.join(BASE_DIR,'static')
+MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 
 # Quick-start development settings - unsuitable for production
@@ -45,6 +47,7 @@ INSTALLED_APPS = [
     'category',
     'home',
     'subcat',
+    'product',
 ]
 
 MIDDLEWARE = [
